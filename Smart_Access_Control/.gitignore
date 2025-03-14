@@ -1,0 +1,33 @@
+# Ignore build and binary files
+/build/
+/sdkconfig
+/sdkconfig.old
+/CMakeCache.txt
+/CMakeFiles/
+/esp-idf/
+
+# Ignore generated files
+*.elf
+*.bin
+*.map
+*.o
+*.a
+*.d
+
+# Ignore flash-related files
+flash_project_args.json
+gdbinit
+
+# Ignore VS Code and other editor configurations
+.vscode/
+*.swp
+*.swo
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore logs
+*.log
+*.tmp
